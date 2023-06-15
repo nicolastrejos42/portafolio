@@ -1,59 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Página de ejemplo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
   <header>
-    <h1>Nicolás Trejos</h1>
-    <h2>Desarrollador JR</h2>
+    <div class="container">
+      <h1>John Doe</h1>
+      <h2>Desarrollador Full Stack</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section id="about">
-    <h2>Sobre mí</h2>
-    <p>Soy un desarrollador backend con experiencia en lenguajes como PHP y Javascript. Me apasiona la creación de aplicaciones robustas y escalables. Estoy interesado en trabajar en proyectos desafiantes y aprender nuevas tecnologías.</p>
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <p>Soy un desarrollador full stack con experiencia en el desarrollo de aplicaciones web. Mi objetivo es crear
+        productos de calidad que brinden una excelente experiencia al usuario. Me apasiona aprender nuevas tecnologías y
+        enfrentar desafíos creativos.</p>
+      <p>¡Explora mi portafolio y descubre más sobre mi trabajo!</p>
+    </div>
   </section>
 
   <section id="skills">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Desarrollo de aplicaciones web</li>
-      <li>Lenguajes de programación: PHP, js</li>
-      <li>Bases de datos: MySQL, Sql server</li>
-      <li>Gestión de servidores y despliegue</li>
-    </ul>
+    <div class="container">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Desarrollo web</li>
+        <li>Lenguajes de programación: HTML, CSS, JavaScript, Python</li>
+        <li>Frameworks y librerías: React, Angular, Node.js, Django</li>
+        <li>Bases de datos: MySQL, MongoDB</li>
+        <li>Gestión de versiones: Git</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Experiencia</h2>
+      <div class="job">
+        <h3>Desarrollador Full Stack en ABC Company</h3>
+        <p>Fecha: 2018 - Presente</p>
+        <ul>
+          <li>Desarrollo de aplicaciones web utilizando tecnologías modernas.</li>
+          <li>Colaboración con equipos multidisciplinarios en proyectos complejos.</li>
+          <li>Implementación de buenas prácticas de desarrollo y seguimiento de estándares de codificación.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Desarrollador Frontend en XYZ Agency</h3>
+        <p>Fecha: 2016 - 2018</p>
+        <ul>
+          <li>Creación de interfaces de usuario atractivas y responsivas.</li>
+          <li>Optimización del rendimiento de sitios web y mejora de la experiencia del usuario.</li>
+          <li>Colaboración con diseñadores para convertir maquetas en código.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section id="projects">
-    <h2>Proyectos</h2>
-    <div class="project">
-      <h3>Proyecto 1</h3>
-      <p>Descripción del proyecto 1.</p>
-      <p>Tecnologías utilizadas: PHP, Js, MySQL</p>
-    </div>
-    <div class="project">
-      <h3>Proyecto 2</h3>
-      <p>Descripción del proyecto 2.</p>
-      <p>Tecnologías utilizadas: Node.js, Express, MongoDB</p>
+    <div class="container">
+      <h2>Proyectos</h2>
+      <div class="project">
+        <h3>Proyecto 1</h3>
+        <p>Descripción del proyecto 1.</p>
+        <p>Tecnologías utilizadas: React, Node.js, MongoDB</p>
+      </div>
+      <div class="project">
+        <h3>Proyecto 2</h3>
+        <p>Descripción del proyecto 2.</p>
+        <p>Tecnologías utilizadas: Angular, Django, MySQL</p>
+      </div>
     </div>
   </section>
 
   <section id="contact">
-    <h2>Contacto</h2>
-    <p>Puedes contactarme a través de:</p>
-    <ul>
-      <li>Email: john.doe@example.com</li>
-      <li>Teléfono: +1 123 456 7890</li>
-      <li><a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a></li>
-      <li><a href="https://github.com/johndoe" target="_blank">GitHub</a></li>
-    </ul>
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme a través de:</p>
+      <ul>
+        <li>Email: john.doe@example.com</li>
+        <li>Teléfono: +1 123 456 7890</li>
+        <li><a href="https://linkedin.com/in/johndoe" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+      </ul>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2023 John Doe. Todos los derechos reservados.</p>
+    <div class="container">
+      <p>&copy; 2023 John Doe. Todos los derechos reservados.</p>
+    </div>
   </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 </body>
+
 </html>
